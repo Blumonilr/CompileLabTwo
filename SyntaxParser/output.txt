@@ -1,0 +1,56 @@
+E->TC
+T->FD
+F->i
+match: i
+D->#
+C->AC
+A->+T
+match: +
+T->FD
+F->i
+match: i
+D->#
+C->AC
+A->-T
+match: -
+T->FD
+F->i
+match: i
+D->BD
+B->*F
+match: *
+F->i
+match: i
+D->#
+C->AC
+A->+T
+match: +
+T->FD
+F->i
+match: i
+D->BD
+B->/F
+match: /
+F->(E)
+match: (
+E->TC
+T->FD
+F->i
+match: i
+D->#
+C->AC
+A->+T
+match: +
+T->FD
+F->i
+match: i
+D->#
+C->#
+match: )
+D->#
+C->AC
+A->-T
+match: -
+T->FD
+F->i
+match: i
